@@ -43,11 +43,11 @@ ball = Ball(WHITE, 10, 10)
 ball.rect.x = 345
 ball.rect.y = 195
 
-paddleA = Paddle(WHITE, 10, 150)
+paddleA = Paddle(WHITE, 10, 150, 0)
 paddleA.rect.x = 10
 paddleA.rect.y = 200
 
-paddleB = Paddle(WHITE, 10, 150)
+paddleB = Paddle(WHITE, 10, 150, 0)
 paddleB.rect.x = 680
 paddleB.rect.y = 200
 
